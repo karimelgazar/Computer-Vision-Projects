@@ -11,7 +11,7 @@
 ## ⚡ Click Any Image Below To Go To The Corresponding Link
 
 ### 🌟 The Playlist
-<a href="https://www.youtube.com/playlist?list=PLO1D3YWS7ep0rsgm301QaSXjvEX0FHImw" target="_blank"><img src="results/cover.PNG"></a>
+<a href="https://www.youtube.com/playlist?list=PLO1D3YWS7ep0rsgm301QaSXjvEX0FHImw" target="_blank"><img src="results/cover.png"></a>
 
 ### ⭐ Face Detection
 ---
