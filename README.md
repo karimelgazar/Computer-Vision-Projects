@@ -1,6 +1,8 @@
-<img src="images/allah.png" height=450/>
+<p align="center"> 
+<img src="images/allah.png" width=500 height=500 align="middle"/>
+</p>
 
-# 🤖 Computer Vision Projects Course 🤖
+#  🤖 Computer Vision Projects Course 🤖
 
 ## ⚡ About The Course
 ### This course is a collection of projects in Computer Vision using OpenCV as applications on [OpenCV for Beginners Course](https://www.youtube.com/playlist?list=PLO1D3YWS7ep3Pfjls3LjBtp5XdvGpBD6Z)
