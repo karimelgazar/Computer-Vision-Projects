@@ -8,9 +8,6 @@ kids = cv2.imread('images\kids.jpg')
 xml_classifier = path.join(path.dirname(cv2.__file__),
                            "data", "haarcascade_frontalface_default.xml")
 
-# print(path.join(path.dirname(cv2.__file__),
-#                 "data", "haarcascade_frontalface_default.xml"))
-
 
 def detect_faces(image):
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
@@ -23,7 +20,7 @@ def detect_faces(image):
     return rects
 
 
-def draw(image, rects, title):
+def draw(image, rects, title=None):
     print("=" * 30)
     print("i found {} people.".format(len(rects)).title())
     print("=" * 30)
@@ -31,8 +28,9 @@ def draw(image, rects, title):
     for x, y, w, h in rects:
         cv2.rectangle(image, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
-    cv2.imshow(title, image)
-    cv2.waitKey(0)
+    if title:
+        cv2.imshow(title, image)
+        cv2.waitKey(0)
 
 
 cv2.imshow("Khan", khan)
