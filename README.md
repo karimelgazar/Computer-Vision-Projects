@@ -9,8 +9,7 @@
 
 ---
 
-<!-- <font color="Orange"><h2>⚡ Click Any Image Below To Go To The Corresponding Link</h2></font> -->
-## ⚡ Click Any Image Below To Go To The Corresponding Link
+<font color="Orange"><h2>⚠ Click Any Image Below To Go To The Corresponding Link ⚠</h2></font>
 
 ### 🌟 The Playlist
 <a href="https://www.youtube.com/playlist?list=PLO1D3YWS7ep0rsgm301QaSXjvEX0FHImw" target="_blank"><img src="results/cover.png"></a>
@@ -18,4 +17,9 @@
 ### ⭐ Face Detection
 ---
 <a href="https://www.youtube.com/watch?v=8oTNFktBM9M&list=PLO1D3YWS7ep0rsgm301QaSXjvEX0FHImw" target="_blank"><img src="results/face_detection.gif" width=720></a>
+---
+
+### ⭐ Face Parts
+---
+<a href="https://www.youtube.com/watch?v=x5FGVZyd094&list=PLO1D3YWS7ep0rsgm301QaSXjvEX0FHImw" target="_blank"><img src="results/face_parts.gif" width=720></a>
 ---
