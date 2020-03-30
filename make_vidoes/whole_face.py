@@ -160,9 +160,8 @@ class PairDetector():
 
     def detect_pair(self,
                     ROI,
-                    scaleFactor=1.15,
-                    minNeighbors=5,
-                    minSize=(30, 30),
+                    scaleFactor=1.05,
+                    minNeighbors=3,
                     print_info=False):
 
         rects = []
@@ -172,8 +171,7 @@ class PairDetector():
 
             rects.append(self.pairs_detector.detectMultiScale(image=roi,
                                                               scaleFactor=scaleFactor,
-                                                              minNeighbors=minNeighbors,
-                                                              minSize=minSize))
+                                                              minNeighbors=minNeighbors))
 
         if print_info:
             print("=" * 30)
