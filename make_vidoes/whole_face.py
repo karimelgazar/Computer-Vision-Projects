@@ -152,3 +152,38 @@ class MouthDetector():
             return
         for roi, (x, y, w, h) in zip(ROI, rects[0]):
             cv2.rectangle(roi, (x, y), (x+w, y+h), (0, 255, 255), 2)
+
+
+class PairDetector():
+    def __init__(self, xml_classifier):
+        self.pairs_detector = cv2.CascadeClassifier(xml_classifier)
+
+    def detect_pair(self,
+                    ROI,
+                    scaleFactor=1.15,
+                    minNeighbors=5,
+                    minSize=(30, 30),
+                    print_info=False):
+
+        rects = []
+        for roi in ROI:
+            if len(roi.shape) > 2:
+                roi = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
+
+            rects.append(self.pairs_detector.detectMultiScale(image=roi,
+                                                              scaleFactor=scaleFactor,
+                                                              minNeighbors=minNeighbors,
+                                                              minSize=minSize))
+
+        if print_info:
+            print("=" * 30)
+            print("i found {} pairs.".format(len(rects)).title())
+            print("=" * 30)
+
+        return rects
+
+    def draw(self, rects, ROI):
+        if len(rects) == 0:
+            return
+        for roi, (x, y, w, h) in zip(ROI, rects[0]):
+            cv2.rectangle(roi, (x, y), (x+w, y+h), (190, 243, 108), 2)
