@@ -21,10 +21,10 @@
 
 ### ⭐ Face Parts
 ---
-<a href="https://www.youtube.com/watch?v=x5FGVZyd094&list=PLO1D3YWS7ep0rsgm301QaSXjvEX0FHImw" target="_blank"><img src="results/face_parts.gif" width=720></a>
+<a href="https://www.youtube.com/watch?v=x5FGVZyd094&list=PLO1D3YWS7ep0rsgm301QaSXjvEX0FHImw" target="_blank"><img src="results/face_parts.png" width=720></a>
 ---
 
 ### ⭐ Snapchat
 ---
-<a href="https://www.youtube.com/watch?v=_8PjD0uxegQ&list=PLO1D3YWS7ep0rsgm301QaSXjvEX0FHImw" target="_blank"><img src="results/snapchat.gif" width=720></a>
+<a href="https://www.youtube.com/watch?v=_8PjD0uxegQ&list=PLO1D3YWS7ep0rsgm301QaSXjvEX0FHImw" target="_blank"><img src="results/snapchat.png" width=720></a>
 ---
