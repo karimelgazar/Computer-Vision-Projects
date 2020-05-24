@@ -14,7 +14,7 @@ eyes_xml_classifier = os.path.join(os.path.dirname(cv2.__file__),
                                    "data", "haarcascade_eye.xml")
 
 #! must add SCRIPT_PATH so the script can find the xml file
-#! https://github.com/opencv/opencv_contrib/tree/master/modules/face/data/cascades
+#! https://github.com/adobe/SimpleSensor/tree/master/simplesensor/collection_modules/demographic_camera/classifiers/haarcascades
 nose_xml_classifier = "xml/haarcascade_mcs_nose.xml"
 
 mouth_xml_classifier = "xml/haarcascade_mcs_mouth.xml"
